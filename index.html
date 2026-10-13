@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Somo Kenya LMS</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="shell">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo-area">
+      <div class="logo-mark">
+        <div class="logo-icon">
+          <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 2L3 6v8l7 4 7-4V6L10 2z" fill="#1a7a4a" stroke="#1a7a4a" stroke-width="0.5"/>
+            <path d="M10 2v12M3 6l7 4 7-4" stroke="#fff" stroke-width="1.2" fill="none"/>
+          </svg>
+        </div>
+        <div>
+          <div class="logo-name">Somo</div>
+          <div class="logo-sub">Kenya LMS</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-label">Main</div>
+      <div class="nav-item active"><i class="ti ti-layout-dashboard"></i> Dashboard</div>
+      <div class="nav-item"><i class="ti ti-book-2"></i> My Courses <span class="nav-badge">6</span></div>
+      <div class="nav-item"><i class="ti ti-calendar-event"></i> Schedule</div>
+      <div class="nav-item"><i class="ti ti-clipboard-list"></i> Assignments <span class="nav-badge">3</span></div>
+      <div class="nav-item"><i class="ti ti-chart-bar"></i> Grades</div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-label">Community</div>
+      <div class="nav-item"><i class="ti ti-messages"></i> Messages <span class="nav-badge">5</span></div>
+      <div class="nav-item"><i class="ti ti-speakerphone"></i> Announcements</div>
+      <div class="nav-item"><i class="ti ti-users"></i> Study Groups</div>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-label">Resources</div>
+      <div class="nav-item"><i class="ti ti-file-text"></i> KNEC Resources</div>
+      <div class="nav-item"><i class="ti ti-settings"></i> Settings</div>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="user-chip">
+        <div class="avatar">JW</div>
+        <div class="user-info">
+          <div class="user-name">James Waweru</div>
+          <div class="user-role">Form 3 · Nairobi School</div>
+        </div>
+        <i class="ti ti-chevron-up" style="color:rgba(255,255,255,0.4);font-size:14px;"></i>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="topbar">
+      <span class="page-title">Dashboard</span>
+      <div class="search-bar">
+        <i class="ti ti-search"></i>
+        <input type="text" placeholder="Search courses, files, assignments…">
+      </div>
+      <div class="top-actions">
+        <div class="icon-btn notif-dot"><i class="ti ti-bell" style="font-size:18px;"></i></div>
+        <div class="icon-btn"><i class="ti ti-help" style="font-size:18px;"></i></div>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <!-- Welcome Banner -->
+      <div class="welcome-banner">
+        <div class="welcome-text">
+          <h2>Habari, James! 👋</h2>
+          <p>You have 3 assignments due this week and 2 unread messages. Keep up the great work!</p>
+        </div>
+        <div class="welcome-badge">
+          <div class="wday">SUNDAY</div>
+          <div class="wdate">7</div>
+          <div class="wmonth">JUNE 2026</div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-icon green"><i class="ti ti-book-2"></i></div>
+          <div class="stat-num">6</div>
+          <div class="stat-label">Active Courses</div>
+          <div class="stat-change up">↑ CBC Aligned</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon amber"><i class="ti ti-clipboard-list"></i></div>
+          <div class="stat-num">3</div>
+          <div class="stat-label">Pending Assignments</div>
+          <div class="stat-change down">↓ Due soon</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon blue"><i class="ti ti-chart-bar"></i></div>
+          <div class="stat-num">B+</div>
+          <div class="stat-label">Current Average</div>
+          <div class="stat-change up">↑ Improved from last term</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon green"><i class="ti ti-flame"></i></div>
+          <div class="stat-num">14</div>
+          <div class="stat-label">Day Streak</div>
+          <div class="stat-change up">↑ Keep going!</div>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="quick-actions">
+        <div class="qa-btn"><i class="ti ti-video"></i><span class="qa-label">Join Live Lesson</span></div>
+        <div class="qa-btn"><i class="ti ti-upload"></i><span class="qa-label">Submit Assignment</span></div>
+        <div class="qa-btn"><i class="ti ti-message-circle"></i><span class="qa-label">Message Teacher</span></div>
+        <div class="qa-btn"><i class="ti ti-file-download"></i><span class="qa-label">Past Papers (KNEC)</span></div>
+      </div>
+
+      <!-- Two-column content -->
+      <div class="two-col">
+        <div>
+          <!-- Courses -->
+          <div class="section-card" style="margin-bottom:20px;">
+            <div class="sc-head">
+              <span class="sc-title">My Courses</span>
+              <span class="sc-link">View all →</span>
+            </div>
+            <div class="sc-body">
+              <div class="tab-bar" style="margin:-14px -18px 14px;padding:0 18px;">
+                <div class="tab active">In Progress</div>
+                <div class="tab">Completed</div>
+                <div class="tab">Upcoming</div>
+              </div>
+
+              <div class="course-row">
+                <div class="course-thumb ct-g">📐</div>
+                <div class="course-info">
+                  <div class="course-name">Mathematics (KCSE)</div>
+                  <div class="course-meta">Mr. Omondi · 12 modules · 3 assignments</div>
+                  <div class="prog-bar"><div class="prog-fill" style="width:72%"></div></div>
+                </div>
+                <span class="tag tag-g">72%</span>
+              </div>
+
+              <div class="course-row">
+                <div class="course-thumb ct-b">🧪</div>
+                <div class="course-info">
+                  <div class="course-name">Chemistry</div>
+                  <div class="course-meta">Ms. Akinyi · 10 modules · 2 assignments</div>
+                  <div class="prog-bar"><div class="prog-fill blue" style="width:55%"></div></div>
+                </div>
+                <span class="tag tag-a">55%</span>
+              </div>
+
+              <div class="course-row">
+                <div class="course-thumb ct-a">🌍</div>
+                <div class="course-info">
+                  <div class="course-name">Geography</div>
+                  <div class="course-meta">Mr. Kariuki · 8 modules · 1 assignment</div>
+                  <div class="prog-bar"><div class="prog-fill" style="width:88%"></div></div>
+                </div>
+                <span class="tag tag-g">88%</span>
+              </div>
+
+              <div class="course-row">
+                <div class="course-thumb ct-r">📚</div>
+                <div class="course-info">
+                  <div class="course-name">English Language &amp; Literature</div>
+                  <div class="course-meta">Ms. Njeri · 9 modules · 2 assignments</div>
+                  <div class="prog-bar"><div class="prog-fill amber" style="width:44%"></div></div>
+                </div>
+                <span class="tag tag-r">44%</span>
+              </div>
+
+              <div class="course-row">
+                <div class="course-thumb ct-g">🇰🇪</div>
+                <div class="course-info">
+                  <div class="course-name">Kiswahili</div>
+                  <div class="course-meta">Mwalimu Mutua · 7 modules · 1 assignment</div>
+                  <div class="prog-bar"><div class="prog-fill" style="width:76%"></div></div>
+                </div>
+                <span class="tag tag-g">76%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grade Book -->
+          <div class="section-card">
+            <div class="sc-head">
+              <span class="sc-title">Grade Book</span>
+              <span class="sc-link">Full transcript →</span>
+            </div>
+            <div class="sc-body">
+              <table class="grade-table">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>CAT 1</th>
+                    <th>CAT 2</th>
+                    <th>Mock</th>
+                    <th>Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="font-weight:500;">Mathematics</td>
+                    <td>68</td><td>74</td><td>72</td>
+                    <td><span class="grade-pill gp-b">B+</span></td>
+                  </tr>
+                  <tr>
+                    <td style="font-weight:500;">Chemistry</td>
+                    <td>61</td><td>58</td><td>64</td>
+                    <td><span class="grade-pill gp-b">B</span></td>
+                  </tr>
+                  <tr>
+                    <td style="font-weight:500;">Geography</td>
+                    <td>80</td><td>85</td><td>82</td>
+                    <td><span class="grade-pill gp-a">A−</span></td>
+                  </tr>
+                  <tr>
+                    <td style="font-weight:500;">English</td>
+                    <td>54</td><td>59</td><td>57</td>
+                    <td><span class="grade-pill gp-c">C+</span></td>
+                  </tr>
+                  <tr>
+                    <td style="font-weight:500;">Kiswahili</td>
+                    <td>77</td><td>79</td><td>76</td>
+                    <td><span class="grade-pill gp-b">B+</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right column -->
+        <div>
+          <!-- Assignments Due -->
+          <div class="section-card" style="margin-bottom:20px;">
+            <div class="sc-head">
+              <span class="sc-title">Assignments Due</span>
+              <span class="sc-link">All tasks →</span>
+            </div>
+            <div class="sc-body">
+              <div class="assign-row">
+                <div class="assign-dot ad-urgent"></div>
+                <div>
+                  <div class="assign-name">Quadratic Equations — Sheet 4</div>
+                  <div class="assign-course">Mathematics · Mr. Omondi</div>
+                  <div class="assign-due due-urgent">Due Today at 11:59 PM</div>
+                </div>
+              </div>
+              <div class="assign-row">
+                <div class="assign-dot ad-soon"></div>
+                <div>
+                  <div class="assign-name">Acids, Bases &amp; Salts Lab Report</div>
+                  <div class="assign-course">Chemistry · Ms. Akinyi</div>
+                  <div class="assign-due due-soon">Due Tue, 9 Jun</div>
+                </div>
+              </div>
+              <div class="assign-row">
+                <div class="assign-dot ad-ok"></div>
+                <div>
+                  <div class="assign-name">Essay: Rift Valley Formation</div>
+                  <div class="assign-course">Geography · Mr. Kariuki</div>
+                  <div class="assign-due due-ok">Due Fri, 13 Jun</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Calendar -->
+          <div class="section-card" style="margin-bottom:20px;">
+            <div class="sc-head">
+              <span class="sc-title">June 2026</span>
+            </div>
+            <div class="sc-body">
+              <div class="cal-days">
+                <div class="cal-day-name">Mo</div><div class="cal-day-name">Tu</div>
+                <div class="cal-day-name">We</div><div class="cal-day-name">Th</div>
+                <div class="cal-day-name">Fr</div><div class="cal-day-name">Sa</div>
+                <div class="cal-day-name">Su</div>
+                <div class="cal-day other">26</div><div class="cal-day other">27</div>
+                <div class="cal-day other">28</div><div class="cal-day other">29</div>
+                <div class="cal-day other">30</div><div class="cal-day other">31</div>
+                <div class="cal-day">1</div>
+                <div class="cal-day">2</div><div class="cal-day has-event">3</div>
+                <div class="cal-day has-event">4</div><div class="cal-day has-event">5</div>
+                <div class="cal-day">6</div><div class="cal-day today has-event">7</div>
+                <div class="cal-day">8</div><div class="cal-day has-event">9</div>
+                <div class="cal-day">10</div><div class="cal-day has-event">11</div>
+                <div class="cal-day">12</div><div class="cal-day has-event">13</div>
+                <div class="cal-day">14</div>
+                <div class="cal-day">15</div><div class="cal-day has-event">16</div>
+                <div class="cal-day">17</div><div class="cal-day">18</div>
+                <div class="cal-day">19</div><div class="cal-day">20</div>
+                <div class="cal-day">21</div>
+                <div class="cal-day has-event">22</div><div class="cal-day">23</div>
+                <div class="cal-day">24</div><div class="cal-day has-event">25</div>
+                <div class="cal-day">26</div><div class="cal-day">27</div>
+                <div class="cal-day">28</div>
+                <div class="cal-day">29</div><div class="cal-day">30</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Announcements -->
+          <div class="section-card">
+            <div class="sc-head">
+              <span class="sc-title">Announcements</span>
+              <span class="sc-link">View all →</span>
+            </div>
+            <div class="sc-body">
+              <div class="ann-item">
+                <div class="ann-avatar av-g">AO</div>
+                <div>
+                  <div class="ann-sender">Mr. Omondi</div>
+                  <div class="ann-course-tag">Mathematics</div>
+                  <div class="ann-msg">Next week's CAT will cover chapters 5–7 only. Study the worked examples.</div>
+                  <div class="ann-time">Today, 9:14 AM</div>
+                </div>
+              </div>
+              <div class="ann-item">
+                <div class="ann-avatar av-b">NK</div>
+                <div>
+                  <div class="ann-sender">Principal Njuguna</div>
+                  <div class="ann-course-tag">School Notice</div>
+                  <div class="ann-msg">Mid-term exams begin June 22. Timetables pinned on the portal.</div>
+                  <div class="ann-time">Yesterday, 2:30 PM</div>
+                </div>
+              </div>
+              <div class="ann-item">
+                <div class="ann-avatar av-a">MA</div>
+                <div>
+                  <div class="ann-sender">Ms. Akinyi</div>
+                  <div class="ann-course-tag">Chemistry</div>
+                  <div class="ann-msg">Lab practicals postponed to Thursday. Please bring your data tables.</div>
+                  <div class="ann-time">Fri, 5 Jun</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /content -->
+  </main>
+</div>
+
+<script>
+  // Sidebar navigation
+  document.querySelectorAll('.nav-item').forEach(item => {
+    item.addEventListener('click', function() {
+      document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+
+  // Tab switching
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', function() {
+      this.closest('.tab-bar').querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
